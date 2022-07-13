@@ -9,7 +9,7 @@ const el = document.getElementById('root');
 const root = ReactDOM.createRoot(el);
 // 4) Create a component
 function App() {
-  return <input style={{border: '3px solid red'}} type="number" min={0} />
+  return <input style={{border: '1px solid blue'}} />
 }
 // 5) Show the component on the screen
 root.render(<App />);
